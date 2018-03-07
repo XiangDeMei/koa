@@ -1,0 +1,196 @@
+[2018-03-07T14:48:47.507] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 8
+err name: userNotExist
+err message: 
+err stack: userNotExist
+    at exports.getUser (F:\koa\test\app\controllers\user_controller.js:6:15)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at F:\koa\test\middlewares\response_formatter.js:32:19
+*************** error log end ***************
+
+[2018-03-07T14:58:41.084] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7
+err name: ReferenceError
+err message: error_code is not defined
+err stack: ReferenceError: error_code is not defined
+    at new ApiError (F:\koa\test\app\error\ApiError.js:16:21)
+    at exports.getUser (F:\koa\test\app\controllers\user_controller.js:6:15)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-03-07T14:58:50.654] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: ReferenceError
+err message: error_code is not defined
+err stack: ReferenceError: error_code is not defined
+    at new ApiError (F:\koa\test\app\error\ApiError.js:16:21)
+    at exports.getUser (F:\koa\test\app\controllers\user_controller.js:6:15)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-03-07T14:58:51.224] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+err name: ReferenceError
+err message: error_code is not defined
+err stack: ReferenceError: error_code is not defined
+    at new ApiError (F:\koa\test\app\error\ApiError.js:16:21)
+    at exports.getUser (F:\koa\test\app\controllers\user_controller.js:6:15)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-03-07T14:58:51.775] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: ReferenceError
+err message: error_code is not defined
+err stack: ReferenceError: error_code is not defined
+    at new ApiError (F:\koa\test\app\error\ApiError.js:16:21)
+    at exports.getUser (F:\koa\test\app\controllers\user_controller.js:6:15)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-03-07T14:58:52.230] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+err name: ReferenceError
+err message: error_code is not defined
+err stack: ReferenceError: error_code is not defined
+    at new ApiError (F:\koa\test\app\error\ApiError.js:16:21)
+    at exports.getUser (F:\koa\test\app\controllers\user_controller.js:6:15)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
+[2018-03-07T14:59:33.786] [ERROR] error - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/users/getUser
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 7
+err name: ReferenceError
+err message: error_code is not defined
+err stack: ReferenceError: error_code is not defined
+    at new ApiError (F:\koa\test\app\error\ApiError.js:16:21)
+    at exports.getUser (F:\koa\test\app\controllers\user_controller.js:6:15)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:346:16
+    at dispatch (F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\koa\test\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:351:31)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (F:\koa\test\node_modules\_koa-router@7.4.0@koa-router\lib\router.js:332:32)
+    at dispatch (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (F:\koa\test\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+*************** error log end ***************
+
